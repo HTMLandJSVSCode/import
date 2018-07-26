@@ -1,0 +1,63 @@
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="icon" type="image/png" href="https://cdn.iconverticons.com/files/png/9f273c38ab1b1a27_256x256.png">
+ <title>Minecraft Unofficial Page</title>
+ <style>
+  body, html {
+    height: 100%;
+    margin: 0;
+ }
+  .content {
+     /* The image used */
+     background-image: url("grass background.jpg");
+
+     /* Full height */
+     height: 100%;
+
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .right {
+   align : right
+ }
+ </style>
+</head>
+<body>
+<div class = "content">
+<h1>Minecraft</h1>
+<p>This is a <a href = "https://en.wikipedia.org/wiki/Minecraft">Minecraft</a> unofficial guide. Please note that these information
+   might not be 100% accurate.</p>
+ <figure>
+  <img src="logo.jpg" onclick="move()" style="cursor: pointer;" alt="Hypixel is good!">
+   <br />
+   <figcaption><a href="xxxx.html">Hypixel is good!</a></figcaption>
+ </figure>
+ <figure>
+   <img src="Update_Aquatic.png" onclick="pagegood()" style="cursor: pointer;" alt="The aquatic update (1.13)">
+   <br />
+   <figcaption><a href="1.13.html">The aquatic update (1.13)</a></figcaption>
+ </figure>
+  <iframe id="ytplayer" src="http://www.youtube.com/embed?listType=search&list=Minecraft"></iframe>
+ </div>
+  <footer class="right">
+   <img src="feedbackbutton.jpg" onclick="move2()" style="cursor: pointer;">
+ </footer>
+ <script>
+  function move()
+  {
+    window.location.replace("xxxx.html")
+  }
+  function move2()
+  {
+    window.location.replace("feedback.html")
+  }
+  function pagegood()
+  {
+    window.location.replace("1.13.html")
+  }
+ </script>
+</body>
+</html>
